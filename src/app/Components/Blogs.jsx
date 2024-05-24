@@ -7,7 +7,7 @@ const Blogs = () => {
   return (
    <main>
     <div className='w-[1100px] mx-auto text-center'>
-        <h2 className='font-semibold text-2xl'>Latest Blogs</h2>
+        <h2 className='font-semibold text-2xl border-b-4 w-fit mx-auto border-[#F4310A] py-2'>Latest Blogs</h2>
         <p className='text-right font-semibold'>View all</p>
         <div className='grid grid-cols-3 gap-y-10 gap-x-6 my-14'>
               {blogs.map((blogs,index)=>(

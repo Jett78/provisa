@@ -5,7 +5,7 @@ const Assist = () => {
   return (
     <main>
         <div className='w-[1100px] mx-auto text-center'>
-            <h2 className='font-semibold text-2xl'>We Assist You With</h2>
+            <h2 className='font-semibold text-2xl border-b-4 w-fit mx-auto border-[#F4310A] py-2'>We Assist You With</h2>
             <div className='grid grid-cols-3 gap-y-16 gap-x-6 my-14 relative'>
               {assist.map((assist, index) => (
                 <div key={index} className='relative'>
