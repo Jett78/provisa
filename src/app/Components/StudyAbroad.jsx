@@ -3,9 +3,9 @@ import React from 'react'
 const StudyAbroad = () => {
   return (
     <main>
-      <div className='w-[1100px] mx-auto text-center'>
+      <div className='w-[1100px] mx-auto my-20 text-center'>
         <h2  className='font-semibold text-2xl'>Study Abroad</h2>
-        <div className='flex gap-6 items-center'>
+        <div className='flex gap-6 items-center mt-10'>
           <figure>
             <img src="https://provisa.com.np/wp-content/uploads/2021/02/christopher-burns-FUh6nK3s0po-unsplash.jpg.webp" alt="img" />
           </figure>
