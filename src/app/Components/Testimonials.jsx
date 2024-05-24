@@ -1,44 +1,32 @@
-"use client"
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { testimonials } from "../db/mockdata";
+import { FaQuoteLeft } from "react-icons/fa";
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-// import required modules
-import { Pagination } from 'swiper/modules';
 
 const Testimonials = () => {
   return (
-    <main className='bg-[#2D1D54] text-white h-[80vh]'>
-        <div className='w-[900px] mx-auto text-center py-10'>
-            <h2 className='font-bold text-4xl'>Student's Testimonials</h2>
-            <>
-            <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </>
+    <main className="bg-[#2D1D54] text-white h-[80vh]">
+      <div className="w-[1100px] mx-auto text-center py-10">
+        <h2 className="font-bold text-4xl">Student's Testimonials</h2>
+        <div className="flex gap-4 mt-20">
+          {testimonials.map((testi, index) => (
+            <div key={index} className="border w-[50em] h-[22em] py-10 px-6 text-left">
+               <div className="text-3xl text-[#F4310A] pb-2">
+               <FaQuoteLeft/>
+               </div>
+              <p>{testi.desc}</p>
+              <div className="flex items-center gap-4 text-left mt-10">
+                <img src={testi.img} alt="img" className='w-16 rounded-full' />
+                <div>
+                  <h2 className="font-bold text-xl">{testi.name}</h2>
+                  <p className="text-[12px] text-gray-400">{testi.university}</p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
+      </div>
     </main>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

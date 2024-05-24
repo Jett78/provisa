@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
    <main>
-    <div className='w-[1100px] mx-auto flex gap-6'>
+    <div className='w-[1100px] mx-auto flex gap-6 my-10'>
         <figure className='w-[40em]'>
             <img src="https://provisa.com.np/wp-content/uploads/2022/10/confused-provisa-nepal.jpg.webp" alt="" />
         </figure>

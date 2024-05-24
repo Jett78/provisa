@@ -63,25 +63,25 @@ export const testimonials = [
    {
       desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
       name:"Saman Shrestha",
-      img:"",
-      university:"University of Australia",
+      img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
+      university:"The University of Australia",
    },
    {
-      desc:"PROVISA provided me great assistance on my student visa approval. I really appreciate your efforts, consultation and customer services. Thank you PROVISA for guiding me through the right path in my life. You helped me with my life changing decision. I will be forever grateful for your help and great assistance. ",
+      desc:"PROVISA provided me great assistance on my student visa approval. I really appreciate your efforts, consultation and customer services. Thank you PROVISA for guiding me through the right path in my life. You helped me with my life changing decision. I will be forever grateful for your help. ",
+      img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
       name:"David Heroc",
-      img:"",
-      university:"University of Australia",
+      university:"The University of Australia",
    },
-   {
-      desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
-      name:"Saman Shrestha",
-      img:"",
-      university:"University of Australia",
-   },
-   {
-      desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
-      name:"Saman Shrestha",
-      img:"",
-      university:"University of Australia",
-   },
+   // {
+   //    desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
+   //    name:"Samantha Urbin",
+   //    img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
+   //    university:"University of Australia",
+   // },
+   // {
+   //    desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
+   //    name:"Sanjay Dutt",
+   //    img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
+   //    university:"University of Australia",
+   // },
 ]
