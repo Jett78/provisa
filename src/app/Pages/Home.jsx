@@ -7,6 +7,7 @@ import Contact from '../Components/Contact'
 import Blogs from '../Components/Blogs'
 import Footer from '../Components/Footer'
 import StudyAbroad from '../Components/StudyAbroad'
+import Testimonials from '../Components/Testimonials'
 
 const Home = () => {
   return (
@@ -16,8 +17,10 @@ const Home = () => {
     <HeroSection/>
     <Assist/>
     <StudyAbroad/>
+    <Testimonials/>
     <Contact/>
     <Blogs/>
+
     <Footer/>
    </main>
   )

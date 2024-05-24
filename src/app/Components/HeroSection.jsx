@@ -1,5 +1,7 @@
+"use client"
 import React from "react";
 import Slider from "./Slider";
+import FullImageOnScroll from "./FullImageOnScroll";
 
 const HeroSection = () => {
   return (
@@ -22,7 +24,6 @@ const HeroSection = () => {
         </p>
       </div>
       <div>
-        
       </div>
     </main>
   );
