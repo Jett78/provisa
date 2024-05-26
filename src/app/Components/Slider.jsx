@@ -24,11 +24,11 @@ const Slider = () => {
         <div className="slide-container">
         <Fade>
           {fadeImages.map((fadeImage, index) => (
-            <div key={index} className='h-[80vh] relative'>
+            <div key={index} className='h-[100vh]'>
               <img style={{ width: '100%' }} src={fadeImage.url} className='object-contain w-fit brightness-50' />
       
-                <h2 className='absolute translate-x-[80%] translate-y-[80%] py-10 inset-0 bg-black bg-opacity-75 text-white border-2 border-white h-40 w-[20em] text-center text-3xl font-bold '>{fadeImage.caption}</h2>
-          
+                <h2 className='absolute mx-auto my-auto  inset-0 bg-black bg-opacity-75 text-white border-2 border-white py-10 h-40 w-[20em] text-center text-3xl font-bold '>{fadeImage.caption}</h2>
+         
             </div>
           ))}
         </Fade>
