@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='w-[1100px] mx-auto flex gap-6 my-12'>
         <figure className='w-[40em] relative'>
             <img src="https://provisa.com.np/wp-content/uploads/2022/10/confused-provisa-nepal.jpg.webp" alt="" />
-            <div className='absolute top-80 mx-40 bg-orange-400 h-60 p-6'>
+            <div className='absolute top-80 mx-40 bg-orange-400 opacity-75 h-60 p-6'>
               <p className='text-2xl font-bold text-white'>Choosing Us As Your Education Partner, We Can Assure You Your Future While You Focus On Your Study.</p>
             </div>
         </figure>
