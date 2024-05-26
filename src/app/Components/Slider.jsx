@@ -5,15 +5,15 @@ import 'react-slideshow-image/dist/styles.css'
 
 const fadeImages = [
     {
-      url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+      url: 'https://provisa.com.np/wp-content/uploads/2022/10/JourneyToAustralia.jpeg.webp',
       caption: 'Grab 50% OFF in IELTS and PTE',
     },
     {
-      url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+      url: 'https://provisa.com.np/wp-content/uploads/2022/12/newzealand.png.webp',
       caption: 'We can hep you live the life you been dreaming of',
     },
     {
-      url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+      url: 'https://provisa.com.np/wp-content/uploads/2022/10/study_abroad_provisa-nepal.jpg.webp',
       caption: 'WELCOME TO PROFESSIONAL VISA AND EDUCATION SERVICES',
     },
   ];
@@ -25,10 +25,10 @@ const Slider = () => {
         <Fade>
           {fadeImages.map((fadeImage, index) => (
             <div key={index} className='h-[80vh] relative'>
-              <img style={{ width: '100%' }} src={fadeImage.url} className='object-full' />
-              <div>
-                <h2 className='absolute  top-40 left-[18em] bg-black bg-opacity-75 text-white border-2 border-white h-60 w-[20em] text-center px-4 py-20 text-3xl font-bold '>{fadeImage.caption}</h2>
-              </div>
+              <img style={{ width: '100%' }} src={fadeImage.url} className='object-contain w-fit brightness-50' />
+      
+                <h2 className='absolute translate-x-[80%] translate-y-[80%] py-10 inset-0 bg-black bg-opacity-75 text-white border-2 border-white h-40 w-[20em] text-center text-3xl font-bold '>{fadeImage.caption}</h2>
+          
             </div>
           ))}
         </Fade>
