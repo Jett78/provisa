@@ -72,16 +72,16 @@ export const testimonials = [
       name:"David Heroc",
       university:"The University of Australia",
    },
-   // {
-   //    desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
-   //    name:"Samantha Urbin",
-   //    img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
-   //    university:"University of Australia",
-   // },
-   // {
-   //    desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
-   //    name:"Sanjay Dutt",
-   //    img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
-   //    university:"University of Australia",
-   // },
+   {
+      desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
+      name:"Samantha Urbin",
+      img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
+      university:"University of Australia",
+   },
+   {
+      desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",
+      name:"Sanjay Dutt",
+      img:"https://provisa.com.np/wp-content/uploads/2022/04/No-photo-m-e1649131277378.png",
+      university:"University of Australia",
+   },
 ]
