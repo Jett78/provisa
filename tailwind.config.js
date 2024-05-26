@@ -11,9 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "parallax": 'url("https://wallpapers.com/images/featured/new-york-city-5oaa14h4mw6w3o71.jpg")',
       },
     },
   },

@@ -23,7 +23,31 @@ const HeroSection = () => {
           may be Nepal's best education consultancy.
         </p>
       </div>
-      <div>
+      <div className="flex items-center justify-center bg-parallax bg-fixed bg-cover h-80 mt-5">
+        <div className="w-full h-full bg-orange-400 opacity-80 flex justify-center items-center ">
+           <section className="flex justify-center gap-40">
+           <div className="text-white flex flex-col  items-center gap-2">
+            <img src="https://provisa.com.np/wp-content/uploads/2021/02/campus.png" alt="university" className="w-20 filter invert brightness-0" />
+            <h2 className="font-bold text-2xl">200+</h2>
+            <p className="text-sm font-semibold">College and Universities</p>
+           </div>
+           <div className="text-white flex flex-col  items-center gap-2">
+            <img src="https://provisa.com.np/wp-content/uploads/2021/02/coronavirus.png" alt="university" className="w-20 filter invert brightness-0" />
+            <h2 className="font-bold text-2xl">5+</h2>
+            <p className="text-sm font-semibold">Countries</p>
+           </div>
+           <div className="text-white flex flex-col  items-center gap-2">
+            <img src="https://provisa.com.np/wp-content/uploads/2021/02/graduated.png" alt="university" className="w-20 filter invert brightness-0" />
+            <h2 className="font-bold text-2xl">1500+</h2>
+            <p className="text-sm font-semibold">Happy Student</p>
+           </div>
+           <div className="text-white flex flex-col  items-center gap-2">
+            <img src="https://provisa.com.np/wp-content/uploads/2021/02/online-learning.png" alt="university" className="w-20 filter invert brightness-0" />
+            <h2 className="font-bold text-2xl">150+</h2>
+            <p className="text-sm font-semibold">Courses</p>
+           </div>
+           </section>
+        </div>
       </div>
     </main>
   );
