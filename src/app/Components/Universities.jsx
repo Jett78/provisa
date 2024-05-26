@@ -39,7 +39,7 @@ const Universities = () => {
     <main>
         <div className='mt-10'>
             <h2 className="slider-container font-semibold text-2xl text-center">Top Universities</h2>
-            <div className='w-[1300px] mx-auto my-10 cursor-pointer'>
+            <div className='max-w-[1300px] mx-auto my-10 cursor-pointer'>
             <Slider {...settings}>
                 {data.map((data,index)=> (
                     <div key={index} className='border-none outline-none'>

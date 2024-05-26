@@ -16,7 +16,7 @@ const HeaderWLogo = () => {
                     <h2 className='font-semibold text-[#F4310A] text-l'>+9779851101782</h2>
                 </div>
                 </div>
-                <button className='bg-[#F4310A] hover:bg-[#2D1D54] duration-300 text-white p-3'>Book an Appointment</button>
+                <button className='bg-[#F4310A] hover:bg-[#2D1D54] duration-300 text-white md:p-3 p-1 text-sm'>Book an Appointment</button>
             </section>
         </div>
     </main>

@@ -10,7 +10,7 @@ import { IoLocationSharp } from "react-icons/io5";
 const Footer = () => {
   return (
     <main className="bg-[#2D1D54] text-white">
-      <div className="w-[1100px] mx-auto flex justify-between pt-20 pb-4 border-b">
+      <div className="max-w-[1100px] md:mx-auto mx-2 flex flex-wrap justify-between pt-20 pb-4 border-b">
         <section>
           <img
             src="https://provisa.com.np/wp-content/uploads/2022/08/logo_provisa@3x_corrected-e1659629955744.png"

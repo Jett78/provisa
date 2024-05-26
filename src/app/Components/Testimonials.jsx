@@ -17,7 +17,7 @@ const Testimonials = () => {
     <main className="bg-[#2D1D54] text-white h-[80vh]">
       <div className=" max-w-[1200px] mx-auto text-center py-10">
         <h2 className="slider-container font-bold text-4xl">Student's Testimonials</h2>
-        <div className="mt-16">
+        <div className="mt-16 overflow-hidden">
         <Slider {...settings}>
           {testimonials.map((testi, index) => (
             <div key={index} className="border w-[50em] h-[22em] py-8 px-6 text-left">
