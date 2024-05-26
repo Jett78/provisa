@@ -3,9 +3,9 @@ import React from 'react'
 const StudyAbroad = () => {
   return (
     <main>
-      <div className='w-[1100px] mx-auto my-20 text-center'>
+      <div className='max-w-[1100px] md:mx-auto mx-2 my-20 text-center'>
         <h2  className='font-semibold text-2xl border-b-4 w-fit mx-auto border-[#F4310A] py-2'>Study Abroad</h2>
-        <div className='flex gap-6 items-center mt-10'>
+        <div className='flex xl:flex-nowrap flex-wrap justify-center gap-2 items-center mt-10'>
           <section className='relative group overflow-hidden'>
             <img src="https://provisa.com.np/wp-content/uploads/2021/02/christopher-burns-FUh6nK3s0po-unsplash.jpg.webp" className='brightness-50 group-hover:scale-125 ease-in-out duration-500 ' alt="img" />
             <div className=' text-white text-3xl absolute inset-0 py-80 text-left px-4 group-hover:bg-orange-400 group-hover:bg-opacity-75 ease-in-out duration-500 '>

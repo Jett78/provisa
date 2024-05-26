@@ -15,12 +15,12 @@ const Testimonials = () => {
   };
   return (
     <main className="bg-[#2D1D54] text-white h-[80vh]">
-      <div className=" w-[1200px] mx-auto text-center py-10">
+      <div className=" max-w-[1200px] mx-auto text-center py-10">
         <h2 className="slider-container font-bold text-4xl">Student's Testimonials</h2>
-        <div className=" mt-20">
+        <div className="mt-16">
         <Slider {...settings}>
           {testimonials.map((testi, index) => (
-            <div key={index} className="border w-[50em] h-[22em] py-10 px-6 text-left">
+            <div key={index} className="border w-[50em] h-[22em] py-8 px-6 text-left">
                <div className="text-3xl text-[#F4310A] pb-2">
                <FaQuoteLeft/>
                </div>
