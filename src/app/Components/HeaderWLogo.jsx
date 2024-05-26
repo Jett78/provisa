@@ -4,11 +4,11 @@ import { IoCall } from "react-icons/io5";
 const HeaderWLogo = () => {
   return (
     <main>
-        <div className='flex items-center justify-between w-[1100px] mx-auto border-b my-2'>
+        <div className='flex flex-wrap items-center md:justify-between justify-center max-w-[1100px] md:mx-auto mx-2 border-b my-2'>
             <figure className='w-60'>
                 <img src="https://provisa.com.np/wp-content/uploads/2022/08/logo_provisa@3x_corrected-e1659629955744.png" alt="logo" />
             </figure>
-            <section className='flex items-center gap-20'>
+            <section className='flex items-center gap-20 mb-2'>
                 <div className='flex items-center'>
                 <IoCall className='text-4xl' />
                 <div>

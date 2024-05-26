@@ -11,7 +11,7 @@ import HeaderWLogo from "./HeaderWLogo";
 const Header = () => {
   return (
     <main className="">
-      <div className="bg-[#F4310A] py-3  flex gap-28 justify-center text-[13px] text-white ">
+      <div className="bg-[#F4310A] py-3  lg:flex hidden gap-28 justify-center text-[13px] text-white ">
         <section className="flex items-center gap-6 text-l">
           <FaFacebookF />
           <GrInstagram />
