@@ -10,11 +10,12 @@ const Testimonials = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    arrows:true
   };
   return (
     <main className="bg-[#2D1D54] text-white h-[80vh]">
-      <div className=" w-[1100px] mx-auto text-center py-10">
+      <div className=" w-[1200px] mx-auto text-center py-10">
         <h2 className="slider-container font-bold text-4xl">Student's Testimonials</h2>
         <div className=" mt-20">
         <Slider {...settings}>
