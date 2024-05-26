@@ -27,7 +27,7 @@ const Slider = () => {
             <div key={index} className='h-[80vh] relative'>
               <img style={{ width: '100%' }} src={fadeImage.url} className='object-full' />
               <div>
-                <h2 className='absolute  top-40 left-[18em] bg-black text-white border-2 border-white h-60 w-[20em] text-center px-4 py-20 text-3xl font-bold '>{fadeImage.caption}</h2>
+                <h2 className='absolute  top-40 left-[18em] bg-black bg-opacity-75 text-white border-2 border-white h-60 w-[20em] text-center px-4 py-20 text-3xl font-bold '>{fadeImage.caption}</h2>
               </div>
             </div>
           ))}
