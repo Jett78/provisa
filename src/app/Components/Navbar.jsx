@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Navbar = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -39,7 +41,8 @@ const Navbar = () => {
     <main>
       <div className="w-[1000px] mx-auto">
         <nav>
-          <ul className="flex justify-between items-center gap-2">
+        <li className="lg:hidden block py-2 pl-6"><GiHamburgerMenu /></li>
+          <ul className="lg:flex hidden justify-between items-center gap-2">
             <li className="cursor-pointer hover:text-[#F4310A] duration-300">Home</li>
             <li className="relative inline-block text-left" onMouseEnter={() => setDropdownVisible(true)}onMouseLeave={() => setDropdownVisible(false)}>
               <button type="button" className="inline-flex justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm  text-gray-900 hover:text-[#F4310A] duration-300" id="menu-button" aria-expanded="true" aria-haspopup="true" >
