@@ -27,7 +27,7 @@ const Slider = () => {
             <div key={index} className=' overflow-hidden md:h-[80vh] h-full'>
               <img style={{ width: '100%' }} src={fadeImage.url} className='object-contain brightness-50 ' />
       
-                <h2 className='absolute md:mx-auto mx-16 my-auto  inset-0 bg-black bg-opacity-75 text-white border-2 border-white md:py-10 py-2 md:h-40 h-28 max-w-[20em] text-center md:text-3xl text-l font-bold '>{fadeImage.caption}</h2>
+                <h2 className='absolute md:mx-auto mx-16 my-auto  inset-0 bg-black bg-opacity-75 text-white border-2 border-white md:py-10 py-4 md:h-40 h-28 max-w-[20em] text-center md:text-3xl text-l font-bold '>{fadeImage.caption}</h2>
          
             </div>
           ))}
