@@ -10,13 +10,13 @@ const HeaderWLogo = () => {
             </figure>
             <section className='flex items-center gap-20 mb-2'>
                 <div className='flex items-center'>
-                <IoCall className='text-4xl' />
+                <IoCall className='md:text-4xl text-2xl' />
                 <div>
-                    <p className='text-sm'>Speak with us</p>
-                    <h2 className='font-semibold text-[#F4310A] text-l'>+9779851101782</h2>
+                    <p className='sm:text-sm text-[8px]'>Speak with us</p>
+                    <h2 className='font-semibold text-[#F4310A] sm:text-l text-[10px] '>+9779851101782</h2>
                 </div>
                 </div>
-                <button className='bg-[#F4310A] hover:bg-[#2D1D54] duration-300 text-white md:p-3 p-1 text-sm'>Book an Appointment</button>
+                <button className='bg-[#F4310A] hover:bg-[#2D1D54] duration-300 whitespace-nowrap text-white md:p-3 p-1 sm:text-sm text-[8px]'>Book an Appointment</button>
             </section>
         </div>
     </main>

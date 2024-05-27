@@ -23,6 +23,7 @@ const HeroSection = () => {
           may be Nepal's best education consultancy.
         </p>
       </div>
+      
       <div className="flex items-center justify-center bg-parallax bg-fixed bg-cover h-80 mt-5">
         <div className="w-full h-full bg-orange-400 opacity-80 flex justify-center items-center ">
            <section className="flex justify-center gap-40">
