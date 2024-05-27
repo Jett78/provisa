@@ -11,13 +11,13 @@ const Contact = () => {
             </div>
         </figure>
 
-        <div className='bg-gray-100 w-[50%]  py-4 px-8'>
+        <div className='bg-gray-100 max-w-[40em]  py-4 px-8'>
             <form action="#">
             <h2 className='font-semibold text-2xl'>For Your Inquiries</h2>
                <div className='grid mt-4 gap-2'>
               <div className='grid gap-2'> 
                 <label htmlFor="">Full Name *</label>
-                <input type="text" placeholder='Enter Full Name' className='text-[12px] p-3 outline-none border-none' />
+                <input type="text" placeholder='Enter Full Name' className='  text-[12px] p-3 outline-none border-none' />
                 </div>
                 <div className='grid gap-2'>
                 <label htmlFor="">Email Address *</label>
