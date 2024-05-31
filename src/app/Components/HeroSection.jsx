@@ -2,12 +2,18 @@
 import React from "react";
 import Slider from "./Slider";
 import FullImageOnScroll from "./FullImageOnScroll";
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
   return (
     <main>
       <Slider />
-      <div className="md:mt-16 mt-4 text-center">
+      <motion.div
+       initial={{y:'5vw', opacity: 0 }}
+       animate={ { y: 0 }} 
+       whileInView={{ opacity: 1 }}
+       transition={{ ease: "easeOut", duration: 2 }}
+       className="md:mt-16 mt-4 text-center">
         <h2 className="font-semibold md:text-3xl text-2xl text-purple-900">PROFESSIONAL VISA AND EDUCATION SERVICES</h2>
         <p className="max-w-[1200px] py-5  md:mx-auto mx-2 text-gray-500">
           Professional Visa and Education Services Pvt. Ltd. (Pro-Visa) is a
@@ -22,7 +28,7 @@ const HeroSection = () => {
           guidance, in addition to our high visa success rate. As a result, we
           may be Nepal's best education consultancy.
         </p>
-      </div>
+      </motion.div>
       
       <div className="flex items-center justify-center bg-parallax bg-fixed bg-cover h-80 mt-5">
         <div className="w-full h-full bg-orange-400 opacity-80 flex justify-center items-center ">

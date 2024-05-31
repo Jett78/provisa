@@ -11,6 +11,7 @@ import Testimonials from '../Components/Testimonials'
 import Universities from '../Components/Universities'
 
 const Home = () => {
+
   return (
    <main>
     <Header/>
