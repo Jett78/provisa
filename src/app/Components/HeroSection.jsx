@@ -1,18 +1,22 @@
 "use client"
 import React from "react";
 import Slider from "./Slider";
-import FullImageOnScroll from "./FullImageOnScroll";
 import { motion } from "framer-motion"
 
 const HeroSection = () => {
+  const translateAnimation = {
+     initial:{y:15, opacity: 0},
+     animate:{ y: 0,opacity:1}
+  }
   return (
     <main>
       <Slider />
       <motion.div
-       initial={{y:'5vw', opacity: 0 }}
-       animate={ { y: 0 }} 
-       whileInView={{ opacity: 1 }}
-       transition={{ ease: "easeOut", duration: 2 }}
+      variants={translateAnimation}
+       initial="initial"
+       whileInView="animate"
+       viewport={{ once: true,amount:1 }}
+       transition={{ ease: "easeOut", duration: 1 }}
        className="md:mt-16 mt-4 text-center">
         <h2 className="font-semibold md:text-3xl text-2xl text-purple-900">PROFESSIONAL VISA AND EDUCATION SERVICES</h2>
         <p className="max-w-[1200px] py-5  md:mx-auto mx-2 text-gray-500">

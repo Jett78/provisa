@@ -58,7 +58,28 @@ export const blogs = [
     desc: "Get your future started with Provisa Nepal.Almost every opportunity comes during a crisis. This is also true for studying [...]",
   },
 ];
-
+export const studyabroad = [
+  {
+    img:"https://provisa.com.np/wp-content/uploads/2022/04/japan.jpg.webp",
+    title:"STUDY IN JAPAN",
+    desc:"Education System in Japan In the decades following World [...]",
+  },
+  {
+    img:"https://provisa.com.np/wp-content/uploads/2022/04/canal-g1228989ee_640.jpg.webp",
+    title:"STUDY IN EUROPE",
+    desc:"In terms of Research and education Europe is[....]",
+  },
+  {
+    img:"https://provisa.com.np/wp-content/uploads/2020/09/jason-hafso-C2keINMOhIE-unsplash.jpg.webp",
+    title:"STUDY IN CANADA",
+    desc:"Education System In Canada It's common knowledge that studying [...]",
+  },
+  {
+    img:"https://provisa.com.np/wp-content/uploads/2021/02/remi-thorel-304R7qkgHe8-unsplash.jpg.webp",
+    title:"STUDY IN USA",
+    desc:"Education System in USA There are two major intakes [...]",
+  },
+]
 export const testimonials = [
    {
       desc:"I feel very lucky to be a part of PROVISA. I got perfect counselling during my test preparation, document preparation, visa application and SOP writing which helped me in visa approval. I would recommend PROVISA as a perfect education partner to everyone out there trying for international study.",

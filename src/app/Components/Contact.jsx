@@ -18,8 +18,8 @@ const Contact = () => {
     variants={transitiony}
        initial="initial"
        whileInView="animate"
-       viewport={{ once: true,amount:1 }}
-       transition={{ ease: "easeOut", duration: 1 }}
+       viewport={{ once: true,amount:0.5}}
+       transition={{ ease: "easeOut", duration: 0.5 }}
         className='w-[40em]'>
             <img src="https://provisa.com.np/wp-content/uploads/2022/10/confused-provisa-nepal.jpg.webp" alt="" />
             <div className='md:absolute hidden top-80 mx-40 bg-orange-400 opacity-75 h-60 p-6'>
@@ -31,8 +31,8 @@ const Contact = () => {
         variants={transition}
         initial="initial"
         whileInView="animate"
-        transition={{duration:1,ease:"easeInOut"}}
-        viewport={{once:true}}
+        transition={{duration:0.5,ease:"easeInOut"}}
+        viewport={{once:true,amount:0.5}}
         className='bg-gray-200 max-w-[40em]  py-4 px-8'>
             <form action="#">
             <h2 className='font-semibold text-2xl'>For Your Inquiries</h2>
