@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { assist } from '../db/mockdata'
-import { delay, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Assist = () => {
 
@@ -28,7 +28,7 @@ const Assist = () => {
                  variants={fadeInAnimation}
                  initial="initial"
                  whileInView="animate"
-                 viewport={{once:true}}
+                 viewport={{once:true,amount:0.5}}
                  custom={index}
                  key={index} className='relative'>
                     <img src={assist.img} alt="img" className='bg-[#F4310A] w-16 h-16 absolute top-[-45px] z-10 left-8 rounded-full p-2 border-4 border-white'/>
